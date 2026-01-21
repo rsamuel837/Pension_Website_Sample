@@ -1,5 +1,6 @@
 function initEmbeddedMessaging() {
     try {
+        <meta http-equiv="Content-Security-Policy" content="frame-ancestors force.com *.force.com *.github.com" />
         embeddedservice_bootstrap.settings.language = 'en_US';
 
         embeddedservice_bootstrap.init(
